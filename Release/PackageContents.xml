@@ -9,7 +9,7 @@
     <Components>
         <ComponentEntry AppName="DiG2"
                         Version="1.0"
-                        ModuleName="$(DiGBuildDir)Debug/2019/Fs.DiG.CAD.Launcher.dll"
+                        ModuleName="$(DiGBuildDir)Release/2019/Fs.DiG.CAD.Launcher.dll"
                         AppDescription="万事达数字化设计平台"
                         LoadOnAutoCADStartup="True"
                         LoadOnCommandInvocation="True"
@@ -20,7 +20,7 @@
     <Components>
         <ComponentEntry AppName="DiG2"
                         Version="1.0"
-                        ModuleName="$(DiGBuildDir)Debug/2019/Fs.DiG.CAD.Launcher.dll"
+                        ModuleName="$(DiGBuildDir)Release/2019/Fs.DiG.CAD.Launcher.dll"
                         AppDescription="万事达数字化设计平台"
                         LoadOnAutoCADStartup="True"
                         LoadOnCommandInvocation="True"
