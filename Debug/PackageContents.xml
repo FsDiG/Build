@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-tie-the-Product-Version-or-Build-number-with-the-AutoCAD-update.html-->
+<!-- https://en.wikipedia.org/wiki/AutoCAD_version_history-->
+<!-- https://help.autodesk.com/view/ACD/2024/CHS/index.html?guid=GUID-EC442AA9-EA8C-4D69-A434-2F3DAFBB06AE  -->
+<ApplicationPackage SchemaVersion="1.0"
+                    AutodeskProduct="DiG2"
+                    ProductType="Application"
+                    Name="DiG2">
+    <Components>
+        <ComponentEntry AppName="DiG2"
+                        Version="1.0"
+                        ModuleName="$(DiGBuildDir)Build/2019/Fs.DiG.CAD.Launcher.dll"
+                        AppDescription="万事达数字化设计平台"
+                        LoadOnAutoCADStartup="True"
+                        LoadOnCommandInvocation="True"
+                        LoadOnRequest="True">
+        </ComponentEntry>
+        <RuntimeRequirements Platform="AutoCAD*" SeriesMin="R23.0" SeriesMax="R23.0.999"/>
+    </Components>
+    <Components>
+        <ComponentEntry AppName="DiG2"
+                        Version="1.0"
+                        ModuleName="$(DiGBuildDir)Build/2019/Fs.DiG.CAD.Launcher.dll"
+                        AppDescription="万事达数字化设计平台"
+                        LoadOnAutoCADStartup="True"
+                        LoadOnCommandInvocation="True"
+                        LoadOnRequest="True">
+        </ComponentEntry>
+        <RuntimeRequirements Platform="AutoCAD*" SeriesMin="R23.1" SeriesMax="R23.1.999"/>
+    </Components>
+</ApplicationPackage>
