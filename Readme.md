@@ -1,13 +1,18 @@
 ## 调试说明
-正常情况下,插件会通过PackageContents.xml根据Debug和Release判断自动进行加载
+**正常情况下,插件会通过PackageContents.xml根据Debug和Release判断自动进行加载**
+
 如果不能正常加载,请手工处理: 或查看 [话题](https://github.com/FsDiG/DiG/discussions/346)
 1. 将acad.lsp复制到Degbug或Release的2019文件夹下
-2. 如果希望CAD启动时自动加载,请将2019文件夹的全路径, 添加到AutoCAD的支持文件搜索路径中
+2. 如果希望CAD每次启动时自动加载,请将2019文件夹的全路径, 添加到AutoCAD的支持文件搜索路径中
 3. 如果只希望CAD在调试时加载,请删除2中添加的路径; 并在Fs.DiG.CAD.Launcher中项目属性-->Build-->2019--WorkingDirectory中填写将2019文件夹的全路径
 ![image](https://github.com/user-attachments/assets/8c5e79d4-dc0b-45a4-9686-75fd4c854433)
 
 P.S.
-如果每次弹出安全警告,请在CAD选项--将2019的全路径添加 信任路径 中.
+1. 如果每次弹出安全警告,请在CAD选项--将2019的全路径添加 **信任路径** 中.
+2. 如果能加载,但是dll不对,应该尝试检查如下文件夹
+%appdata%\Autodesk\ApplicationPlugins\Fs.DiG.CAD.Launcher.bundle
+如果文件夹中的2019文件夹删除,避免与安装包的路径冲突
+
  
 ## 路径说明:
 1. Debug文件夹下会输出2019文件夹,此文件夹为插件各版本的输出路径或编译后xcopy此输出路径.无需在Fs.DiG.CAD.Launcher中进行处理.
