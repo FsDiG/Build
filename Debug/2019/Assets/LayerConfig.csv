@@ -1,8 +1,8 @@
 ﻿分组,图层Tag,图层标签,图层名,颜色,线型,说明,线宽,是否打印,透明度
-板材,PanelNumberTag,板材实体,板,1,Continuous,板实体图层,默认,是,0
-板材,PanelDimTag,板材标注,标注,1,Continuous,板标注图层,默认,是,0
+基础,BoundaryTag,轮廓线,轮廓线,4,Continuous,墙面和屋面轮廓线,0.18,是,0
+板材,PanelTag,板材实体,板,1,Continuous,板实体,默认,是,0
+板材,PanelNumberTag,板材编号,板编号,1,Continuous,板编号文字,默认,是,0
+板材,PanelDimTag,板材标注,板标注,1,Continuous,"板尺寸标注,预留",默认,是,0
 分组2,DimTag,标注1,标注,1,Continuous,尺寸标注线,0.18,否,0
 分组2,DimTag,图层2,Test2,1,Continuous,尺寸标注线,0.18,否,0
 分组2,DimTag,图层3,Test3,1,Continuous,尺寸标注线,0.18,否,0
-分组2,DimTag,图层4,Test4,1,Continuous,尺寸标注线,0.18,否,0
-
