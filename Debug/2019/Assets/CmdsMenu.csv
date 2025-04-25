@@ -8,10 +8,14 @@
 详图,墙面,绘图环境,TextStyleManage,文字样式管理,内置文字样式管理,OutlineFromLines16.png
 
 详图,墙面,基础设置,ConvertPolylineToWallBoundary,多段线定义轮廓线,闭合多段线定义轮廓线,124.png
+详图,墙面,基础设置,ChangeWallBoundaryEdgeLabel,编辑轮廓线边标签,修改选中的边的标签,124.png
 详图,墙面,基础设置,InteractiveDefineWallBoundary,交互定义轮廓线,交互定义轮廓线,124.png
 详图,墙面,基础设置,OutlineCommandNeiBuDianDingYi,内部点定义轮廓线,内部点定义轮廓线,124.png
 详图,墙面,基础设置,OutlineCommandJuBuPianYi,局部偏移轮廓线,局部偏移轮廓线,124.png
-详图,墙面,基础设置,SEPARATOR, , , 
+详图,墙面,基础设置,SEPARATOR, , ,
+详图,墙面,基础设置,CreateWallRectOpening,定义矩形洞口,定义门窗洞口,124.png
+详图,墙面,基础设置,XiuGaiMenChuangDaXiao,修改洞口尺寸,修改门窗尺寸和对齐点,124.png
+详图,墙面,基础设置,SEPARATOR, , ,
 详图,墙面,基础设置,DingYiZhongFeng,定义中缝,定义中缝,124.png
 详图,墙面,基础设置,DingYiShenSuoFeng,定义伸缩缝,定义伸缩缝,124.png
 详图,墙面,基础设置,DingYiZhouXian,定义轴线,定义轴线,124.png
@@ -19,8 +23,7 @@
 详图,墙面,基础设置,DaJieXianDingYi,定义搭接线,定义搭接线,124.png
 详图,墙面,基础设置,DingYiGangZhuBianXian,定义钢柱边线,定义钢柱边线,124.png
 详图,墙面,基础设置,DingYiYiXingChuang,定义异型窗,定义异型窗,124.png
-详图,墙面,基础设置,XiuGaiMenChuangDaXiao,修改门窗大小,修改门窗大小,124.png
-详图,墙面,基础设置,DingYiMenChuangDongKou,定义门窗洞口,定义门窗洞口,124.png
+
 
 详图,屋面,基础设置,WuMianLunKuoBiHeDuoDuanXianDingYi,闭合多段线定义屋面轮廓,闭合多段线定义屋面轮廓,124.png
 详图,屋面,基础设置,WuMianLunKuoJiaoHuDingYi,交互定义屋面轮廓,交互定义屋面轮廓,124.png
@@ -47,9 +50,7 @@
 
 详图,墙面,收边设计,ShowLibrary,收边库,收边库,节点线创建.png
 
-
-
-
+详图,墙面,配件设计,DaoChuFuPeiJianXinXiDaoExcel,辅配件导出到Excel,后期可能合并到明细表中,124.png
 
 详图,墙面,节点与辅配件设计,XiangMuCanShuPeiZhi,项目参数配置,项目参数配置,124.png
 详图,屋面,节点与辅配件设计,XiangMuCanShuPeiZhi,项目参数配置,项目参数配置,124.png
@@ -153,10 +154,12 @@
 预算,屋面,图纸与表格导出,YuSuanBanCaiMingXiBiao,预算板材明细表,预算板材明细表,124.png
 详图,墙面,图纸与表格导出,PiLiangXiuGaiFuPeiJian,辅配件明细表,辅配件明细表,124.png
 详图,屋面,图纸与表格导出,PiLiangXiuGaiFuPeiJian,辅配件明细表,辅配件明细表,124.png
-详图,墙面,图纸与表格导出,DaoChuFuPeiJianXinXiDaoCAD,辅配件信息导出为CAD表格,临时功能，后期合并到明细表中,124.png
-详图,屋面,图纸与表格导出,DaoChuFuPeiJianXinXiDaoCAD,辅配件信息导出为CAD表格,临时功能，后期合并到明细表中,124.png
-详图,墙面,图纸与表格导出,DaoChuFuPeiJianXinXiDaoExcel,辅配件信息导出到Excel表格,临时功能，后期合并到明细表中,124.png
-详图,屋面,图纸与表格导出,DaoChuFuPeiJianXinXiDaoExcel,辅配件信息导出到Excel表格,临时功能，后期合并到明细表中,124.png
+
+详图,墙面,图纸与表格导出,DaoChuFuPeiJianXinXiDaoCAD,辅配件信息导出为CAD表格,后期合并到明细表中,124.png
+详图,屋面,图纸与表格导出,DaoChuFuPeiJianXinXiDaoCAD,辅配件信息导出为CAD表格,后期合并到明细表中,124.png
+详图,屋面,图纸与表格导出,DaoChuFuPeiJianXinXiDaoExcel,辅配件信息导出到Excel表格,后期合并到明细表中,124.png
+详图,墙面,图纸与表格导出,DiGDaoChuFuPeiJianXinXi,辅配件信息导出,临时功能后期合并到明细表中,124.png
+详图,屋面,图纸与表格导出,DiGDaoChuFuPeiJianXinXi,辅配件信息导出,临时功能后期合并到明细表中,124.png
 详图,墙面,图纸与表格导出,ShouBianXiangTuMingXiBiao,收边详图明细表,收边详图明细表,124.png
 详图,屋面,图纸与表格导出,ShouBianXiangTuMingXiBiao,收边详图明细表,收边详图明细表,124.png
 详图,墙面,图纸与表格导出,DaoChuPuTongTuZhi,导出普通图纸,导出普通图纸,124.png
