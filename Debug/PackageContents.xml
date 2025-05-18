@@ -6,26 +6,27 @@
                     AutodeskProduct="DiG2"
                     ProductType="Application"
                     Name="DiG2">
+    <!--AutoCAD2019-AutoCAD2020-->
     <Components>
         <ComponentEntry AppName="DiG2"
                         Version="1.0"
-                        ModuleName="$(DiGBuildDir)/Debug/2019/Fs.DiG.CAD.Launcher.dll"
+                        ModuleName="./2019/Fs.DiG.CAD.Launcher.dll"
                         AppDescription="万事达数字化设计平台"
                         LoadOnAutoCADStartup="True"
                         LoadOnCommandInvocation="True"
                         LoadOnRequest="True">
         </ComponentEntry>
-        <RuntimeRequirements Platform="AutoCAD*" SeriesMin="R23.0" SeriesMax="R23.0.999"/>
+        <RuntimeRequirements Platform="AutoCAD*" SeriesMin="R23.0" SeriesMax="R23.0.999"  SupportPath="./2019/Support" />
     </Components>
     <Components>
         <ComponentEntry AppName="DiG2"
                         Version="1.0"
-                        ModuleName="$(DiGBuildDir)/Debug/2019/Fs.DiG.CAD.Launcher.dll"
+                        ModuleName="./2020/Fs.DiG.CAD.Launcher.dll"
                         AppDescription="万事达数字化设计平台"
                         LoadOnAutoCADStartup="True"
                         LoadOnCommandInvocation="True"
                         LoadOnRequest="True">
         </ComponentEntry>
-        <RuntimeRequirements Platform="AutoCAD*" SeriesMin="R23.1" SeriesMax="R23.1.999"/>
+        <RuntimeRequirements Platform="AutoCAD*" SeriesMin="R23.1" SeriesMax="R23.1.999" SupportPath="./2020/Support" />
     </Components>
 </ApplicationPackage>
